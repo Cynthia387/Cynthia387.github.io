@@ -21,9 +21,7 @@ We can use a vegachart HTML tag like so:
 <vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
 ```
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
-
-In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
+<vegachart schema-url="{{ site.baseurl }}/assets/hw5/chart1.json" style="width: 100%"></vegachart>
 
 # Example including vega-lite （改）
 
@@ -35,9 +33,9 @@ We can use a vegachart HTML tag like so:
 <vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
 ```
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/hw5/chart2.json" style="width: 100%"></vegachart>
 
-In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
+
 
 
 
@@ -48,6 +46,6 @@ In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hoo
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/Cynthia387.github.io/online_cv_public/blob/main/python_notebooks/hw5.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/Cynthia387/Cynthia387.github.io/blob/main/python_notebooks/hw5.ipynb" text="The Analysis" %}
 </div>
 
