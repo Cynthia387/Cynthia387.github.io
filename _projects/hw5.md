@@ -2,7 +2,7 @@
 name: HW5 – UFO Sightings
 tools: [Python, HTML, vega-lite]
 image: assets/hw5/hw5_Chart1.png
-description: This is a "showcase" project that uses vega-lite for interactive viz! (改项目简介)
+description: Interactive vega-lite visualizations of reported UFO sightings across U.S. states.
 custom_js:
   - vega.min
   - vega-lite.min
